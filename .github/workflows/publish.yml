@@ -34,6 +34,6 @@ jobs:
           scope: "@moneyboxapp"
       - run: yarn
       - run: yarn build
-      - run: yarn publish --new-version ${{github.ref_name}} --no-git-tag-version
+      - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
