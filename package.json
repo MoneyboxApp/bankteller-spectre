@@ -1,5 +1,5 @@
 {
-  "name": "@moneybox/teller-saltedge",
+  "name": "@moneyboxapp/teller-saltedge",
   "version": "0.1.0",
   "description": "SaltEdge connector for moneybox",
   "main": "dist/index.js",
