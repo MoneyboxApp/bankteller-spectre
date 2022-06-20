@@ -8,6 +8,9 @@
     "/dist"
   ],
   "repository": "git@github.com:MoneyboxApp/teller-saltedge.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "author": "Roshan Bhumbra",
   "license": "GPL-3.0-only",
   "private": false,
