@@ -31,6 +31,7 @@ jobs:
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
+          scope: @moneybox
       - run: yarn
       - run: yarn build
       - run: yarn publish --new-version ${{github.ref_name}} --no-git-tag-version
