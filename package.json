@@ -1,0 +1,21 @@
+{
+  "name": "teller-saltedge",
+  "version": "0.1.0",
+  "description": "SaltEdge connector for moneybox",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "repository": "git@github.com:MoneyboxApp/teller-saltedge.git",
+  "author": "Roshan Bhumbra",
+  "license": "GPL-3.0-only",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"no test specified\" && exit 0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.2"
+  }
+}
